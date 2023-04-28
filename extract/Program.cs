@@ -10,6 +10,7 @@ class Program
     {
         // Load the webpage HTML content
         HtmlWeb web = new HtmlWeb();
+        //You can change the link below for whatever web page you want to extract data from
         HtmlDocument doc = web.Load("https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/");
 
         // Extract the h1 tag inner text to use in the output file name
